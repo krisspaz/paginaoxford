@@ -395,9 +395,7 @@ a:focus {
   background-color: #fdd31d;
 }
 
-/* end client section */
 
-/* contact section */
 
 .contact_section {
   padding: 75px 45px;
@@ -449,10 +447,7 @@ a:focus {
 }
 
 
-/* end contact section */
 
-
-/* info section */
 .info_section {
   background-color: #363636;
   color: #ffffff;
@@ -629,7 +624,7 @@ a:focus {
 }
 
 .contact_detail-box a {
-  color: #007bff;
+  color: #051d38;
   text-decoration: none;
 }
 
@@ -650,9 +645,46 @@ a:focus {
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  background-color: transparent !important; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent !important;
+  border: none;
+  color: transparent !important; 
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+.caption-bg {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  border-radius: 10px; 
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff; 
+}
 
 
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
 
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
 
-
-/* end footer section*/
